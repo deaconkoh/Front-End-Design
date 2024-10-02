@@ -1,0 +1,139 @@
+/*SERVIES PAGE*/
+@media(max-width: 991px) {
+    .wrapper{
+        padding:25px;
+    }
+    .wrapper h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    .content-box{
+        flex-direction: column;
+        width: 100%;
+    }
+    .card{
+        min-width: 300px;
+        margin: 10px auto;
+    }
+
+}
+
+/*CONTACT*/
+@media screen and (max-width: 768px){
+    .contact-container{
+        padding: 20px;
+    }
+
+    .contact-wrapper{
+        grid-template-columns: 1fr;
+    }
+    .contact-info{
+        align-items: right;
+        margin-left: 0px;
+    }
+}
+
+
+/*HOME PAGE*/
+@media (max-width: 900px){
+    .home{
+        height: 100vh;
+        justify-content: center;
+    }
+
+    .home h1{
+        font-size: 32px;
+    }
+
+    .home p{
+        font-size: 14px;
+    }
+}
+
+/*NAV PAGE*/
+@media (max-width: 1118px){
+    nav .logo{
+        left: 8%;
+    }
+}
+@media (max-width: 944px){
+    nav .logo{
+        left: 6%;
+        top: 20px;
+        width: 130px;
+    }
+
+    nav .desk-links ul li a{
+        font-size: 17px;
+    }
+}
+@media (max-width: 860px){
+    label #ham-btn{
+        display: block;
+    }
+
+    .desktop-nav ul{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 70%;
+        height: 100vh;
+        background: rgb(210, 210, 210);
+        top: 70px;
+        right: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li a{
+        margin: 25px 0;
+        line-height: 30px;
+        font-size: 80px;
+        font-weight: 400;
+    }
+
+
+    #check:checked ~ .desk-links ul{
+        right: -13%;
+    }
+    #check:checked ~ .hamburger #ham-btn{
+        display: none;
+    }
+    #check:checked ~ .hamburger #ham-btn-cancel{
+        display: block;
+    }
+
+    nav .desk-links ul li a{
+        font-size: 17px;
+    }
+}
+
+
+/*ABOUT US PAGE*/
+@media (max-width: 1200px){
+    .about_container{
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+        height: 90vh;
+    }
+
+    .about__pic-container{
+        display: none;
+    }
+
+    .about_container .about__text{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .about_container .about__text p{
+        width: auto;
+    }
+}
+
+@media (max-width: 1200px){
+    .footer ul{
+        display: flex;
+    }
+}

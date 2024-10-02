@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Hairdressing & Beauty Salon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+</head>
+<body>
+    <nav id="desktop-nav" class="desktop-nav">
+        <input type="checkbox" id="check">
+        <div class="hamburger">
+            <label for="check" class="nav-labels">
+                <i class="fas fa-bars" id="ham-btn"></i>
+                <i class="fas fa-times" id="ham-btn-cancel"></i>
+            </label>
+        </div>
+        <div class="logo">Infinite</div>
+        <div class="desk-links">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+        </div>    
+    </nav>
+
+    <div id="progress-bar" class="progress-bar"></div>
+
+    <section id="home" class="home">
+            <img src="assets/test3.jpg" alt="test" class="banner">
+            <div class="home_content">
+                <h1>Experience A New You</h1>
+                <p>Inviting all to indulge in a spectrum of rejuvenating treatments and personalized care! <br>Beauty isn't just a service; it's an art form, a journey of self-care, and an expression of individuality.</p>
+                <a href="#about" class="btn">Learn More</a>
+            </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about_container">
+            <div class="about__pic-container">
+                <img src="assets/pt4.jpg" alt="About Us Picture">
+            </div>
+        
+            <div class="about__text">
+                <span class="no1">About Us</span>
+                <h2 class="no2"> We provide nothing but <br> quality services</h2>
+                <p>Nestled in the heart of Ang Mo Kio, "Infinite Hairdressing & Beauty Salon" stands as a tranquil sanctuary for those seeking moments of relaxation and pampering. We offers a diverse array of services tailored to meet every client's unique needs and desires. From luxurious facials and revitalizing massages to theraputic gua sha, each treatment is executed with meticulous attention to detail and a commitment to perfection.</p>
+                <a href="#services" class="btn">Learn More</a>
+            </div>
+        </div> 
+    </section>
+
+    <section id="services" class="services">
+      <h1>Our Services</h1>
+      <p>Elevate your beauty routine to new heights <br>Step into a world of indulgence and rejuvenation—your journey to radiant beauty begins here.</p>
+      <div class="content-box">
+        <div class="card">  
+            <i ></i>
+            <h2 class="Facial">Facial Extraction</h2>
+            <p>Facial extraction can improve skin appearance, prevention of acne and breakouts, enhanced effectiveness of skincare products, promotion of skin health by removing the impurities</p>
+        </div>
+
+        <div class="card">
+            <i></i>
+            <h2 class="eyebrow">Eyebrow Embroidery</h2>
+            <p>Eyebrow embroidery offers a convenient & effective solution for achieving fuller, more defined eyebrows with long-lasting results, providing clients with enhanced confidence and a polished appearance.</p>
+        </div>
+
+        <div class="card">
+            <i></i>
+            <h2>Gua Sha</h2>
+            <p>Gua sha is a holistic skincare treatment that offers numerous benefits, including improved circulation, lymphatic drainage, and relaxation, resulting in a brighter, more youthful-looking complexion.</p>
+        </div>
+
+        <div class="card">
+            <i></i>
+            <h2>Eyelash Perming</h2>
+            <p>Eyelash perming is a effective way to curl and lift your lashes, giving them a more lifted and voluminous appearance without the need for eyelash curlers or mascara., enhancing the eyes' appearance.</p>
+        </div>
+
+        <div class="card">
+            <i></i>
+            <h2>Head Therapy</h2>
+            <p>Head therapy are designed to promote relaxation, relieve tension, and improve overall well-being through the use of essential oils and pressure point stimulation at the head and scalp.</p>
+        </div>
+
+        <div class="card">
+            <i></i>
+            <h2>Eye Treatment</h2>
+            <p>Eye treatment involves the use of specialized creams, serums, gels and mask to address common issues around the delicate eye area such as dark circles, puffiness, fine lines, wrinkles, and dryness.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact_container">
+            <h2>Contact Us</h2>
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <h3>Send us a message</h3>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="xxxxxxxxx">
+                        <div class="form-group">
+                            <input type="text" name="name" required="required" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" required="required" placeholder="Your email">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" style="resize: none;" cols="10" rows="5" charswidth="23" required="required" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-phone"></i>+65 6451-5401</p>
+                    <p><i class="fas fa-envelope"></i>Infinitebeautysalonsg@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i>Blk 416 Ang Mo Kio Ave 10, #01-999 560416</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6867280045094!2d103.85221707348964!3d1.3646344615312387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da16e2a564061d%3A0xf81d60812126b5cf!2sInfinite%20Hairdressing%20%26%20Beauty%20Salon!5e0!3m2!1sen!2ssg!4v1711818909762!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+        <div class="review_container">
+            <div class="review_header">
+                <h2 class="title">What Our Clients Say</h2>
+            </div>
+            <div class="review_content">
+                <div class="swiper review_slider js-review-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide review_item">
+                            <div class="info">
+                                <img src="assets/profilepic6.png" alt="profilepic1">
+                                <div class="text_box">
+                                    <h3 class="name">Geena Lim</h3>
+                                    
+                                </div>
+                            </div>
+                            <p>"Face felt really clean & it was glowing after the facial. They're very friendly and very careful seemed very experienced."</p>
+                        </div>
+    
+                        <div class="swiper-slide review_item">
+                            <div class="info">
+                                <img src="assets/profilepic2.png" alt="profilepic2">
+                                <div class="text_box">
+                                    <h3 class="name">Yasmin White</h3>
+                                
+                                </div>
+                            </div>
+                            <p>"Super friendly staff and owner, amazing service, thank you! It was my first time doing a facial and I loved it!"</p>
+                        </div>
+    
+                        <div class="swiper-slide review_item">
+                            <div class="info">
+                                <img src="assets/profilepic4.png" alt="profilepic3">
+                                <div class="text_box">
+                                    <h3 class="name">Alicia</h3>
+                                    
+                                </div>
+                            </div>
+                            <p>"My face feels so smooth and clean! The lady knew my skin type the moment she started working on it and gave advice on how to take care of it."</p>
+                        </div>
+    
+                        <div class="swiper-slide review_item">
+                            <div class="info">
+                                <img src="assets/profilepic5.png" alt="profilepic4">
+                                <div class="text_box">
+                                    <h3 class="name">Valencia</h3>
+                                    
+                                </div>
+                            </div>
+                            <p>"I've been touching my face nonstop...Treatment aside, I just wanna say their service is 10/10. They'll walk you through everything, constantly checking if you're fine"</p>
+                        </div>
+                        <div class="swiper-slide review_item">
+                            <div class="info">
+                                <img src="assets/profilepic1.png" alt="profilepic5">
+                                <div class="text_box">
+                                    <h3 class="name">Christine Lee</h3>
+                                    
+                                </div>
+                            </div>
+                            <p>"Finding time for facial finally...These pimples that appear because of meses is so difficut to get rid. Sometimes, really have to that the correct extraction done 才可以"</p>
+                        </div>
+                        <div class="swiper-slide review_item">
+                            <div class="info">
+                                <img src="assets/profilepic3.png" alt="profilepic6">
+                                <div class="text_box">
+                                    <h3 class="name">Nicole Tan</h3>
+                                    
+                                </div>
+                            </div>
+                            <p>Thank you @Infinitebeautysalon_ for having me this afternoon!</p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination js-review-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.js-review-slider', {
+            grabCursor: true,
+            spaceBetween: 30,
+            pagination:{
+                el: ".js-review-pagination",
+                clickable: true
+            },
+            breakpoints:{
+                767:{
+                    slidesPerView:2
+                }
+            }
+        });
+    </script>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>Infinite Hairdressing & Beauty Salon</h3>
+            <p>Dedicated to elevating your beauty and wellness experience with our curated services and personalized attention</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/infinitebeautysalonsg/"><i class="fa-brands fa-square-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/infinitebeautysalon_/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="mailto:Infinitebeautysalonsg@gmail.com"><i class="fa-regular fa-envelope"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2024 Infinite Hairdressing & Beauty Salon <br><span>All Rights Reserved.</span></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
